@@ -135,8 +135,8 @@ class MaverickXR50 extends LitElement {
   // The rules for sizing your card in the grid in sections view
   getGridOptions() {
     return {
-      rows: 4,
-      min_rows: 4,
+      rows: 6,
+      columns: 12,
     };
   }
 }

@@ -10,7 +10,6 @@ export const maverickXR50Styles = css`
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
     display: flex;
   }
   
@@ -20,6 +19,7 @@ export const maverickXR50Styles = css`
     text-align: center;
     align-items: center;
     width: 100%;
+    aspect-ratio: 1 / 1.285;
     max-width: 568px;
     min-width: 212px; 
     --font-digits: segment7, monospace;
